@@ -1,0 +1,415 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/header-background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    height: 12vh;
+    display: flex;
+}
+
+
+.logo{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo>img{
+    width: 60%;
+    height: 70%;
+}
+
+.list{
+
+    height: 100%;
+    width: 70%;
+}
+.list>ul{
+    
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.list>ul>li{
+    list-style: none;
+}
+
+.list>ul>li>a{
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+}
+.list>ul>li>a:hover{
+    color: #14bf98;
+}
+
+
+.line{
+
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.line>i{
+    font-size: 30px;
+    color: white;
+}
+
+.bottom-head{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-1>h1{
+    font-weight: bold;
+    color: white;
+}
+
+.box-1>p{
+    text-align: center;
+    text-justify: auto;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.box-1>a{
+    color: white;
+    background-color: #14bf98;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.4s;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.box-1>a:hover{
+    background-color: transparent;
+    border: 2px solid #14bf98;
+    color: #14bf98;
+}
+
+
+
+/* end header ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+.part-2-left>img{
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    transition: 0.4s;
+    
+}
+
+.part-2-left>img:hover{
+    transform: scale(1.2)
+}
+
+.part-2-left{
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.part-2-right>h5:nth-child(1){
+    color: #14bf98;
+
+}
+
+.part-2-right>h2{
+    font-weight: bold;
+    color: #484a46;
+}
+
+.part-2-right>p{
+    color: #787976;
+}
+.part-2-right>h5:nth-child(2){
+    color: #484a46;
+}
+
+/* end part2 ///////////////////////////////////////////////////////////////////////////// */
+
+
+
+.part-3>div>a{
+    width: 100px;
+    height:100px;
+    background-color: #14bf98;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    border-radius: 10px;
+
+
+}
+.part-3>div>a>i{
+    font-size: 30px;
+    color: white;
+}
+
+.part-3>div>p{
+    text-align:center;
+    color: #787976;
+
+}
+.part-3>div>h3{
+    color: #484a46;
+    font-weight: bold;
+}
+
+/* end part3  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.part-4{
+    background-color: #fbfbfb;
+    /* min-height: 100vh; */
+}
+
+.part-4>.top-part-4{
+    text-align: center;
+}
+.part-4>.top-part-4>h6{
+    color: #14bf98;
+}
+.part-4>.top-part-4>h2{
+    font-weight: bold;
+}
+
+
+
+.bottom-part-4>div>img{
+    object-fit: cover;
+    object-position: center;
+}
+
+.bottom-part-4>div{
+    /* border: 1px solid black; */
+    margin-top: 30px;
+    background-color: white;
+}
+
+.bottom-part-4>div>span{
+    color: #14bf98;
+}
+.bottom-part-4>div>a{
+    text-decoration: none;
+    width: 120px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#14bf98;
+    color: white;
+    margin-top: 10px;
+    transition: 0.4s;
+}
+
+.bottom-part-4>div>a:hover{
+    border: solid 2px #14bf98;
+    color: #14bf98;
+    background-color: transparent;
+}
+
+
+/* end part 4 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+.left-part-5{
+    /* width: 50%; */
+    height: 60vh;
+    background: url(../img/details-1-background.jpg);
+    background-position: center;
+    background-size: cover;
+    /* display: flex; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.right-part-5{
+    height: 45vh;
+    margin-top: 10px;
+    /* background-color: green; */
+}
+
+.right-part-5>a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #484a46;
+    transition: 0.4s;
+    padding-top: 10px;
+
+}
+
+.right-part-5>a:hover{
+    color: #14bf98;
+}
+.right-part-5>h2{
+    font-weight: bold;
+}
+
+
+
+/* end part5 ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.top-part-6>h6{
+    color: #14bf98;
+}
+
+.top-part-6>h2{
+    font-weight: bold;
+}
+
+
+
+
+.bottom-part-6>div{
+    height: 40vh;
+    position: relative;
+    transition: 0.4s;
+    overflow: hidden;
+
+    
+
+}
+.bottom-part-6>div:hover>img{
+    transform: scale(1.2);
+    
+}
+
+.bottom-part-6>div>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.4s;
+    
+}
+
+
+.bottom-part-6>div::after{
+    content: "";
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.545);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.4s;
+    color: white;
+    font-size: 25px;
+}
+
+
+
+.bottom-part-6>div:hover::after{
+    opacity: 10;
+    height: 100%;
+}
+
+.bottom-part-6>div:nth-child(1)::after{
+    content: 'Online Banking';
+}
+.bottom-part-6>div:nth-child(2)::after{
+    content: 'Classic Industry';
+}
+.bottom-part-6>div:nth-child(3)::after{
+    content: 'BoomBap Audio';
+}
+.bottom-part-6>div:nth-child(4)::after{
+    content: 'Van Moose';
+}
+.bottom-part-6>div:nth-child(5)::after{
+    content: 'Joy Moments';
+}
+.bottom-part-6>div:nth-child(6)::after{
+    content: 'Spark Events';
+}
+.bottom-part-6>div:nth-child(7)::after{
+    content: 'Casual Wear';
+}
+.bottom-part-6>div:nth-child(8)::after{
+    content: 'Zazoo Apps';
+}
+
+
+/* end part666////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+footer{
+    background-color: #113448;
+}
+
+footer>div>a{
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+    padding-top: 10px;
+}
+footer>div>a:hover{
+    color: #14bf98;
+    
+}
+footer>div>h3{
+    color: white;
+    font-weight: bold;
+}
+
+footer>.big-box{
+    color: white;
+}
+footer>.big-box>p{
+    text-align: center;
+}
+
+footer>.icon>a>i{
+    font-size: 30px;
+    padding: 10px;
+}
+footer>.icon>a{
+    transition: 0.4s;
+}
+
+footer>.icon>a:hover{
+    color: #14bf98;
+}
